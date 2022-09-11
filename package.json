@@ -1,7 +1,7 @@
 {
   "name": "project-management",
   "version": "0.0.0",
-  "description": "Project management system (GraphQl & MEARN stack)",
+  "description": "Project management system (GraphQl & MEARN stack & Tailwind CSS)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,9 +12,17 @@
   },
   "keywords": [
     "GraphQL",
-    "MEARN",
-    "Stack"
+    "MEARN Stack",
+    "Tailwind css"
   ],
   "author": "Mr Smiley",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "create-react-app": "^5.0.1",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-graphql": "^0.12.0",
+    "mongoose": "^6.5.4"
+  }
 }
